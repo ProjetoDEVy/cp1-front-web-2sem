@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: #707070;
+}
+
+#titulo{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  background-color: aqua;
+}
+
+p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1 {
+  text-align: center;
+}
+
+#imagem1{
+  width: 400px;
+  height: 400px;
+}
+
+.section2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+#imagem2{
+  width: 50px;
+  height: 50px;
+}
+
+.section3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+#imagem3{
+  width: 50px;
+  height: 50px;
+  justify-content: end;
+
+}
+
+
+footer{
+  color: red;
+  text-align: center;
+}
